@@ -1,12 +1,12 @@
 # Atividades-Grafos
 
- ##GraphFloydWarshall
+  ##GraphFloydWarshall
  
  
- ##GraphFordFulkerson
+  ##GraphFordFulkerson
  
  
- ##GraphDijkstra
+  ##GraphDijkstra
  
  
- ##GraphPrim
+  ##GraphPrim
