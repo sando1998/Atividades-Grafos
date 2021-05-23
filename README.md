@@ -19,7 +19,7 @@
   4 0 2
   ```
 ### Saída: 
-  A saída consiste n linhas onde cada uma representa a distancia de um dos vértices para o vértice de partida, como padrão tomamos o 0 como vértice de partida.
+  A saída consiste em n linhas onde cada uma representa a distancia de um dos vértices para o vértice de partida, como padrão tomamos o 0 como vértice de partida.
   ##### Saída para a entrada padrão:
   ```
   Distance from vertex 0 to vertex source = 0
@@ -40,7 +40,7 @@
   0 0 0 0 0
   ```
 ### Saída: 
-  A saída consiste n linhas onde cada uma representa o fluxo máximo de um dos vértices para o vértice de partida, como padrão tomamos o 0 como vértice de partida. 
+  A saída consiste em n linhas onde cada uma representa o fluxo máximo de um dos vértices para o vértice de partida, como padrão tomamos o 0 como vértice de partida. 
   ##### Saída para a entrada padrão:
   ```
   Maximum flow between the vertex 1 and the source: 6
@@ -62,7 +62,7 @@
   3 0 3
   ```
 ### Saída: 
-  A saída consiste n linhas onde cada uma representa a distancia de um dos vértices para o vértice de partida, como padrão tomamos o 0 como vértice de partida.
+  A saída consiste em n linhas onde cada uma representa a distancia com menor custo de um dos vértices para o vértice de partida, como padrão tomamos o 0 como vértice de partida.
   ##### Saída para a entrada padrão:
   ```
   Shortest distance from vertex 0 to vertex source = 0 
@@ -86,7 +86,8 @@
   3 5 15
   4 5 2
   ```
-### Saída: A consiste em n linhas onde cada linha representa uma aresta para formar árvore geradora mínima.
+### Saída:
+  A saída consiste em n linhas onde cada linha representa uma aresta para formar árvore geradora mínima.
   ##### Saída para a entrada padrão:
   ```
   3 --- 1
