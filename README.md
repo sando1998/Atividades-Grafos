@@ -3,7 +3,7 @@
 
 ## Bellman Ford algorithm
 ### Entrada: 
-  A entrada consiste que os dois primeiros dígitos serão a quantidade de vértices (n) e arestas (m) respectivamente, seguido de n linhas compostas de vértice 1, vértice 2 e peso.
+  A entrada consiste em uma linha com dois digitos que são respectivamente a quantidade de vértices (n) e arestas (m), seguido de m linhas compostas de vértice 1, vértice 2 e peso.
   ###### Entrada padrão, "[graph.in](https://github.com/sando1998/Atividades-Grafos/blob/main/Bellman%20Ford%20algorithm/graph.in)":
   ```
   5 10
@@ -30,7 +30,7 @@
   ```
 ## FordFulkerson algorithm
 ### Entrada: 
-  A entrada consiste numa matriz de adjacencia (5 x 5), para receber outra matriz na entrada com valor diferente de 5, basta atribuir um valor "n" diferente na variável 'constant' na [linha 8](https://github.com/sando1998/Atividades-Grafos/blob/main/FordFulkerson%20algorithm/Ford_Fulkerson.cpp#L8), definir o número de variaveis da [linha 75](https://github.com/sando1998/Atividades-Grafos/blob/main/FordFulkerson%20algorithm/Ford_Fulkerson.cpp#L75) para o valor desejado e modificar o `for(controll = 0;controll<constant;controll++)` na [linha 76](https://github.com/sando1998/Atividades-Grafos/blob/main/FordFulkerson%20algorithm/Ford_Fulkerson.cpp#L76) para conseguir atribuir o número de vértices desejado.
+  A entrada consiste numa matriz de adjacencia (5 x 5), para receber outra matriz na entrada com valor diferente de 5, basta atribuir um valor 'n' diferente para a variável 'constant' na [linha 8](https://github.com/sando1998/Atividades-Grafos/blob/main/FordFulkerson%20algorithm/Ford_Fulkerson.cpp#L8), definir o número de variaveis da [linha 75](https://github.com/sando1998/Atividades-Grafos/blob/main/FordFulkerson%20algorithm/Ford_Fulkerson.cpp#L75) para o valor desejado e modificar o `for(controll = 0;controll<constant;controll++)` na [linha 76](https://github.com/sando1998/Atividades-Grafos/blob/main/FordFulkerson%20algorithm/Ford_Fulkerson.cpp#L76) para conseguir atribuir o número de vértices desejado.
   ##### Entrada padrão, "[graph.in](https://github.com/sando1998/Atividades-Grafos/blob/main/FordFulkerson%20algorithm/graph.in)":
   ```
   0 6 5 2 2
@@ -50,7 +50,7 @@
   ```
 ## Dijkstra algorithm
 ### Entrada: 
-  A entrada consiste em que os dois primeiros dígitos serão a quantidade de vértices (n) e arestas (m) respectivamente, seguido de n linhas compostas de vértice 1, vértice 2 e peso.
+  A entrada consiste em uma linha com dois digitos que são respectivamente a quantidade de vértices (n) e arestas (m), seguido de m linhas compostas de vértice 1, vértice 2 e peso.
   ##### Entrada padrão, "[graph.in](https://github.com/sando1998/Atividades-Grafos/blob/main/Dijkstra%20algorithm/graph.in)":
   ```
   4 6
@@ -62,7 +62,7 @@
   3 0 3
   ```
 ### Saída: 
-  A saída consiste em n linhas onde cada uma representa a distancia com menor custo de um dos vértices para o vértice de partida, como padrão tomamos o 0 como vértice de partida.
+  A saída consiste em n linhas onde cada uma representa a nenor distância de um dos vértices para o vértice de partida, como padrão tomamos o 0 como vértice de partida.
   ##### Saída para a entrada padrão:
   ```
   Shortest distance from vertex 0 to vertex source = 0 
@@ -72,7 +72,7 @@
   ```
 ## Prim algorithm
 ### Entrada: 
-  A entrada consiste em que os dois primeiros dígitos serão a quantidade de vértices (n) e arestas (m) respectivamente, seguido de n linhas compostas de vértice 1, vértice 2 e peso.
+   A entrada consiste em uma linha com dois digitos que são respectivamente a quantidade de vértices (n) e arestas (m), seguido de m linhas compostas de vértice 1, vértice 2 e peso.
   ##### Entrada padrão, "[graph.in](https://github.com/sando1998/Atividades-Grafos/blob/main/Prim%20algorithm/graph.in)":
   ```
   6 9
@@ -87,7 +87,7 @@
   4 5 2
   ```
 ### Saída:
-  A saída consiste em n linhas onde cada linha representa uma aresta para formar árvore geradora mínima.
+  A saída consiste em linhas onde cada uma representa uma aresta para formar árvore geradora mínima(MST).
   ##### Saída para a entrada padrão:
   ```
   3 --- 1
